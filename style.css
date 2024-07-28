@@ -1,0 +1,154 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #141414;
+    color: #fff;
+}
+
+/* Header */
+.header {
+    background: url('images/background.jpg') center center/cover no-repeat;
+    height: 90vh;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 50px;
+}
+
+.header .logo {
+    height: 80px;
+}
+
+.header .sign-in-btn {
+    background-color: #e50914;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.header-content h1 {
+    font-size: 3.125rem;
+    font-weight: 700;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.header-content h2 {
+    font-size: 1.625rem;
+    font-weight: 400;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.header-content p {
+    font-size: 1.125rem;
+    font-weight: 400;
+    max-width: 800px;
+    margin: 0 auto 20px;
+}
+
+.email-form {
+    display: flex;
+    justify-content: center;
+    max-width: 800px;
+    margin: 20px auto 0;
+}
+
+.email-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    width: 70%;
+}
+
+.email-form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #e50914;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    width: 30%;
+}
+
+/* Main Content */
+main {
+    padding: 50px 20px;
+}
+
+.section {
+    padding: 50px 0;
+    border-bottom: 8px solid #222;
+}
+
+.section .container {
+    display: flex;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.section .container.reverse {
+    flex-direction: row-reverse;
+}
+
+.section .section-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.section .section-text h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section .section-text h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+.section img {
+    max-width: 50%;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    padding: 20px 0;
+    background-color: #000;
+    color: #757575;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-links a {
+    color: #757
